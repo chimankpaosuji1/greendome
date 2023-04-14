@@ -1,0 +1,102 @@
+.free {
+  padding: 100px 0 100px 0;
+ 
+}
+
+.free h1 {
+  font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 63px;
+    color: #363636;
+    text-align: center;
+}
+
+.free .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.free button {
+  background: #C7C7A6;
+  border-radius: 20px;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.free .button button:hover {
+  background: #007A29;
+}
+
+.free .card {
+  border: none;
+  padding: 246px 20px 183px 20px;
+}
+.free .card1 {
+  background: linear-gradient(180deg, #D9D9D9 0%, rgba(0, 0, 0, 0.53) 100%), url('../../asset/img/dimg7.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+  /* border: none; */
+}
+.free .card2 {
+  background: linear-gradient(180deg, #D9D9D9 0%, rgba(0, 0, 0, 0.53) 100%), url('../../asset/img/dimg8.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+  /* border: none; */
+}
+
+.free .card3 {
+  background: linear-gradient(180deg, #D9D9D9 0%, rgba(0, 0, 0, 0.53) 100%), url('../../asset/img/dimg9.png');
+  background-size: cover;
+    background-repeat: no-repeat;
+  /* border: none; */
+}
+
+.free .h1 {
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  
+    color: #FFFFFF;
+}
+
+.free .p {
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+  
+    color: #FFFFFF;
+}
+
+.free .col2 {
+  margin: 3rem auto 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.free .col2 .but2 {
+  background: #007A29;
+}
+
+.free .but {
+  padding: 8px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+}

@@ -1,0 +1,20 @@
+.active {
+  padding: 100px 0 100px 0;
+  background: url('../../asset/img/active.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.active h1 {
+  /* font-family: 'Mulish'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 88px;
+    text-align: center;
+    /* identical to box height */
+  
+  
+    color: #FFFFFF;
+}

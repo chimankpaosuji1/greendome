@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import Admission from "./pages/admission/Admission";
+import Home from "./pages/home/Homes";
+import Payment from "./pages/payment/Payment";
+import Prepdone from "./pages/prepdone/Prepdone";
+import Regpage from "./pages/regpage/Regpage";
+import Successpage from "./pages/successpage/Successpage";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="admission" element={<Admission />} />
+        <Route path="regpage" element={<Regpage />} />
+        <Route path="prepdone" element={<Prepdone />} />
+        <Route path="payment" element={<Payment />} />
+        <Route path="success" element={<Successpage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

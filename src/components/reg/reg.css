@@ -1,0 +1,42 @@
+.reg {
+  padding: 100px 0 100px 0;
+    background: #D9D9D9;
+}
+
+.reg .col2 {
+  width: 70%;
+  margin: 1rem auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.reg .col2 .thright {
+  width: 50%;
+}
+
+.header {
+  background: #007A29;
+  color:#fff
+}
+
+.form-group {
+  display: flex !important;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+.form-label {
+  width: 20%;
+  font-weight: bold;
+  
+}
+
+.but33 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

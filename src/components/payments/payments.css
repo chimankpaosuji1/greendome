@@ -1,0 +1,21 @@
+.payments {
+  padding: 100px 0 100px 0;
+    background: #D9D9D9;
+}
+
+.payments .col1 {
+    width: 40%;
+    margin: 1rem auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.payments .formlabel {
+  width: 50%;
+  text-align: left;
+}
+
+.payments .but35 {
+  width: 100%;
+}

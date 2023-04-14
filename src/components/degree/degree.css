@@ -1,0 +1,101 @@
+.degree {
+  padding: 50px 0 30px 0;
+  background: url('../../asset/img/degree.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.degree h1 {
+  font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 63px;
+    color: #363636;
+    text-align: center;
+}
+
+.degree .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* flex-direction: column; */
+  gap: 20px;
+}
+
+.degree button {
+  background: #C7C7A6;
+  border-radius: 20px;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 2rem;
+  /* width: 30%; */
+}
+
+.degree .button button:hover {
+  background: #007A29;
+}
+
+.degree .card {
+  border: none;
+  padding: 246px 20px 20px 20px;
+}
+.degree .card1 {
+  background: linear-gradient(180deg, rgba(120, 120, 120, 0) 0%, rgba(54, 54, 54, 0.94) 100%), url('../../asset/img/dimg1.png');
+  /* border: none; */
+}
+.degree .card2 {
+  background: linear-gradient(180deg, rgba(120, 120, 120, 0) 0%, rgba(54, 54, 54, 0.94) 100%), url('../../asset/img/dimg2.png');
+  /* border: none; */
+}
+
+.degree .card3 {
+  background: linear-gradient(180deg, rgba(120, 120, 120, 0) 0%, rgba(54, 54, 54, 0.94) 100%), url('../../asset/img/dimg3.png');
+  /* border: none; */
+}
+
+.degree .h1 {
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+  
+    color: #FFFFFF;
+}
+
+.degree .p {
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+}
+
+.degree .col2 {
+  margin: 3rem auto 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.degree .col2 .but2 {
+  background: #007A29;
+}
+
+.degree .but {
+  padding: 8px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+}

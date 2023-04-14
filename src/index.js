@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +10,29 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+{/* <Form>
+                    <label>Faculty</label>
+                    <select value={myCar} onChange={handleChange}>
+                      <option value="ford">Faculty of Science</option>
+                      <option value="volvo">Faculty of Technology</option>
+                    </select>
+                  </Form>
+
+                  <Dropdown>
+                    <Dropdown.Toggle
+                      as={CustomToggle}
+                      id="dropdown-basic"
+                      label="Custom Components"
+                      title="Faculties"
+                      // variant="success"
+                      onChange={handleChanges}
+                    >
+                      Faculties
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu as={CustomMenu}>
+                      {faculties.myarray.map((data) => (
+                        <Dropdown.Item key={data.id}>{data}</Dropdown.Item>
+                      ))}
+                    </Dropdown.Menu>
+                  </Dropdown> */}

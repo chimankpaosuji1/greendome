@@ -1,0 +1,12 @@
+.cert {
+  padding: 100px 0 100px 0;
+}
+
+.cert h1 {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+}
+
+.cert img {
+  width: 100%;
+}

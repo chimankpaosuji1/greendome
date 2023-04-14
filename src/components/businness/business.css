@@ -1,0 +1,97 @@
+.business { 
+  padding: 100px 0 100px 0;
+  
+
+}
+.business .row {
+background: url('../../asset/img/business.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: repeat, no-repeat, repeat, no-repeat;
+  background-attachment: scroll, scroll, scroll, scroll;
+  text-align: center;
+}
+
+.business h1 {
+  margin-top: 7rem;
+  width: 100%;
+  font-family: 'DM Sans';
+  font-size: 60px;
+  font-weight: 1000;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: #000;
+}
+.business p {
+  font-family: 'DM Sans';
+  color: #000;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 80%;
+  margin: auto;
+}
+.business .button {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.business button {
+  font-family: 'DM Sans';
+  background: #007A29;
+  border-radius: 10px;
+  width: 373px;
+  padding: 16px 48px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border: 2px solid transparent;
+  
+  
+}
+.business .but2 {
+  margin-top: 2rem;
+  background: #C7C7A6;
+}
+
+.business img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+
+@media (max-width: 500px) {
+ .business {
+  padding: 100px 0;
+ }
+ .business .col1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ }
+ .business p {
+  margin: auto;
+}
+
+}

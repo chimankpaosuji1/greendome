@@ -1,0 +1,10 @@
+.footer {
+  padding: 100px 0 50px 0;
+  background: #007A29;
+  color: #fff;
+  text-align: left;
+}
+
+.footer .row {
+  margin-bottom: 5rem;
+}
