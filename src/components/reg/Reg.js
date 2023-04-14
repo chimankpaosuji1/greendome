@@ -6,7 +6,6 @@ import "./reg.css";
 function Reg() {
 
    const [show, setShow] = useState(false);
-   const [data, setData] = useState();
 
 
    const [firstname, setFirstname] = useState("");
