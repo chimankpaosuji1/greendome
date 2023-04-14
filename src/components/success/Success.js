@@ -10,13 +10,7 @@ function Success() {
       const register = JSON.parse(localStorage.getItem("register"));
 
       setName(`${register.firstname} ${register.surname}`);
-      
-
-      const userdata = {
-        firstname: register.firstname,
-        surname: register.surname,
-        
-      };
+    
     };
     useEffect(() => {
       savedata();

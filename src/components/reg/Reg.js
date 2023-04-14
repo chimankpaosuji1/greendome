@@ -40,17 +40,6 @@ function Reg() {
     }
 
 
-      
-
-    
-   
-   const handleChange = (e) => {
-    setData({
-      ...data,
-      [e.target.name]: e.target.value
-    });
-  }
-
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
 
