@@ -1,8 +1,6 @@
 import React from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { Col, Container, Row} from "react-bootstrap";
 import "./verification.css";
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import { HashLink } from 'react-router-hash-link';
 
 function Verification() {
   return (

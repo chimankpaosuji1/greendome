@@ -1,10 +1,6 @@
 import React from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
-import photo from "../../asset/img/photo.png";
-import photo1 from "../../asset/img/photo1.png";
+import { Col, Container, Row } from "react-bootstrap";
 import "./active.css";
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import { HashLink } from 'react-router-hash-link';
 
 function Active() {
   return (

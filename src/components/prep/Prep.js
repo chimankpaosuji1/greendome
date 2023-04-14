@@ -3,11 +3,7 @@ import {
   Col,
   Container,
   Row,
-  Card,
   Button,
-  Modal,
-  Form,
-  Table,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./prep.css";
@@ -25,11 +21,7 @@ function Prep() {
      setName(`${register.firstname} ${register.surname}`);
      setEmail(register.email);
 
-     const userdata = {
-      firstname: register.firstname,
-      surname: register.surname,
-      email: register.email,
-     }
+    
   }
   useEffect(() => {
     savedata();

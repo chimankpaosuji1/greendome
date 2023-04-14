@@ -1,8 +1,6 @@
 import React from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import "./task.css";
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import { HashLink } from 'react-router-hash-link';
 
 function Task() {
   return (

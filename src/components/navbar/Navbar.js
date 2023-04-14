@@ -2,9 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../../asset/img/logo.png';
 import { Link } from "react-router-dom";
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
 import "./Navbar.css";
 
 

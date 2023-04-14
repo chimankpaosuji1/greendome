@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Col, Container, Row, Card, Button, Modal, Form, Table } from "react-bootstrap";
+import { Col, Container, Row, Button, Modal, Form, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./reg.css";
 
@@ -292,7 +292,13 @@ function Reg() {
                   controlId="exampleForm.ControlTextarea1"
                 >
                   <Form.Label className="form-label">Home Address</Form.Label>
-                  <Form.Control as="textarea" rows={3} name="address" />
+                  <Form.Control
+                    as="textarea"
+                    rows={3}
+                    name="address"
+                    onInput={(e) => setAddress(e.target.value)}
+                    value={address}
+                  />
                 </Form.Group>
                 <Form.Group
                   className="form-group"

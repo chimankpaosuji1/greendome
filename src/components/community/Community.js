@@ -1,10 +1,8 @@
 import React from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
-import photo from "../../asset/img/photo.png";
+import { Col, Container, Row, Card} from "react-bootstrap";
+import photo2 from "../../asset/img/photo2.png";
 import photo1 from "../../asset/img/photo1.png";
 import "./community.css";
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import { HashLink } from 'react-router-hash-link';
 
 function Community() {
   return (
@@ -22,7 +20,7 @@ function Community() {
               <Card.Body>
                 <Card.Text className="p">
                   <div className="ablum">
-                    <img src={photo} alt="photo" />
+                    <img src={photo2} alt="photo2" />
                     <h3>Adrian Peters</h3>
                     <p>Stanford University</p>
                   </div>

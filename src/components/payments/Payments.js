@@ -3,11 +3,11 @@ import {
   Col,
   Container,
   Row,
-  Card,
+ 
   Button,
-  Modal,
+
   Form,
-  Table,
+  
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Paystack } from "../paystack/Paystack";
@@ -30,14 +30,7 @@ function Payments() {
     setName(`${register.firstname} ${register.surname}`);
     setEmail(register.email);
     setAmount(7500);
-    setPhone(register.phone);
-
-    const userdata = {
-      firstname: register.firstname,
-      surname: register.surname,
-      email: register.email,
-      amount: 7500
-    };
+    setPhone(register.phone);    
   };
   useEffect(() => {
     savedata();

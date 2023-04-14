@@ -1,9 +1,7 @@
 import React from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import logo from '../../asset/img/logo.png';
 import "./footer.css";
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import { HashLink } from 'react-router-hash-link';
 
 function Footer() {
   return (

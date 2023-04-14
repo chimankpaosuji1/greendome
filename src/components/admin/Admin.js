@@ -5,23 +5,17 @@ import {
   Row,
   Card,
   Button,
-  Form,
-  Dropdown,
   ListGroup,
   Modal
 } from "react-bootstrap";
 import logo2 from "../../asset/img/logo2.png";
 import { Link } from "react-router-dom";
 import "./admin.css";
-// import { ArrowRightCircle } from 'react-bootstrap-icons';
-// import { HashLink } from 'react-router-hash-link';
 
 function Admin() {
-  const [myCar, setMyCar] = useState("0");
    const [show, setShow] = useState(false);
 
    const handleClose = () => setShow(false);
-   const handleShow = () => setShow(true);
     const [modalShow, setModalShow] = React.useState(false);
 
 
